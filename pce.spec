@@ -1,13 +1,12 @@
 Summary:	PCE - PC Emulator
 Summary(pl):	Emulator PC
 Name:		pce
-Version:	0.1.5
+Version:	0.1.6
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Applications/Emulators
-Source0:	http://www.hampa.ch/pce/%{name}-%{version}.tar.gz
-# Source0-md5:	e5060e734031a8690e7cb404034452d1
-Patch0:		%{name}-DESTDIR.patch
+Source0:	http://www.hampa.ch/pce/download/%{name}-%{version}.tar.gz
+# Source0-md5:	abd1cbb7d060932490f35177857e623f
 URL:		http://www.hampa.ch/pce/
 BuildRequires:	SDL-devel
 BuildRequires:	autoconf
@@ -27,7 +26,6 @@ aplikacji DOSowych.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__aclocal}
