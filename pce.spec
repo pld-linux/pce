@@ -47,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog AUTHORS NEWS README pce.lsm
 %attr(755,root,root) %{_bindir}/*
-%verify(not md5 size mtime) %config(noreplace) %{_sysconfdir}/*
+%verify(not md5 mtime size) %config(noreplace) %{_sysconfdir}/*
 %{_mandir}/man?/*
 %{_datadir}/%{name}
