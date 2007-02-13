@@ -1,5 +1,5 @@
 Summary:	PCE - PC Emulator
-Summary(pl.UTF-8):   Emulator PC
+Summary(pl.UTF-8):	Emulator PC
 Name:		pce
 Version:	0.1.6
 Release:	1
